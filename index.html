@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Revolution Check</title>
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/mediaQueries.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="dList">
+            <h3 class="h3-1">Select year group category</h3>
+            <select class="category select-css" id="sel" onchange="groupSelection()">
+                <option class="firstOption" value="">► Select ◄</option>
+                <option class="droplist" value="bJr">Момчета младша</option>
+                <option class="droplist" value="gJr">Момичета младша</option>
+                <option class="droplist" value="bSr">Момчета старша</option>
+                <option class="droplist" value="gSr">Момичета старша</option>
+                <option class="droplist" value="jManJr">Юноши младша</option>
+                <option class="droplist" value="JWomanJr">Девойки младша</option>
+                <option class="droplist" value="jManSr">Юноши старша</option>
+                <option class="droplist" value="jWomanSr">Девойки старша</option>
+            </select>
+            <p class="additional" id='msg'></p>
+            <p class="nums" id="add"></p>
+        </div>
+
+        <div class="inputForms">
+            <h3 class="h3-2">Custom inputs</h3>
+            <form class="crspr">
+                <span class="crLabel left">Cranckset: </span>
+                <input class="crField left" type="tel" id="cranckset" placeholder="" />
+                <span class="sprLabel left" for="sprocket">Sprocket: </span>
+                <input class="sprField left" type="tel" id="sprocket"  placeholder="" />
+                <button class="crButton left" type="button" onclick="revolutionCalc()">Calculate</button>
+                <p class="revolutionCalc right" id="revolution"></p>
+            </form>
+        </div>
+        <div class="customLength">
+            <h3 class="h3-2"><a href="" onclick="info()">► User length input <img src="img/iInCircle.png"
+                        class="small" />◄</a>
+                
+            </h3>
+
+            <form class="lengthForm">
+                <input class="lengthInput right" id="cLength" type="number" />               
+                <button class="lengthB left" type="button" onClick="customLength()">Length ►</button>
+            </form>
+            <p class="result2"><span id="result2"></span></p>
+            <p class="info"><a href="" class="resultInfo" onclick="resultInfo()">* About Differences!</a></p>
+            <p class="info">* Use dot instead of comma!</p>
+
+        </div>
+
+    </main>
+    <footer>
+        <a href="" class="footerLinks left" onclick="about()">About</a>
+        <p>&copy; 2022</p>
+        <a href="" class="footerLinksR right" onclick="changes()">Changes</a>
+    </footer>
+
+</body>
+
+<script type="text/javascript" src="js/classSelection.js"></script>
+<script type="text/javascript" src="js/revolution.js"></script>
+
+</html>
