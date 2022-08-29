@@ -1,0 +1,224 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 214px;
+    padding: 0 2px;
+    height: auto;
+    min-height: 500px;
+    margin: 0 auto;
+    margin: 0 0 0 10px;
+    overflow: scroll;
+}
+
+header {
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    min-width: none;
+
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.h3-1,
+.h3-2 {
+    width: auto;
+    text-align: center;
+    color: rgb(160, 0, 0);
+    margin: 10px 0 10px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.dList {
+    width: 209px;
+    border-bottom: 1px solid rgb(95, 95, 95);
+}
+
+.category {
+    display: block;
+    width: 208px;
+    height: 32px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+    text-shadow: 0.5px 1px 0.5px rgb(177, 168, 168);
+    border: 1px solid gray;
+    border-radius: 3px;
+    transition: 1s;
+    transition-timing-function: ease;
+}
+
+.firstOption {
+    display: none;
+    text-align: center;
+}
+
+.droplist {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: none;
+
+}
+
+.additional {
+    display: block;
+    font-size: 14px;
+    margin: 20px 0 10px 30px;
+    color: red;
+}
+
+.nums {
+    font-size: 14px;
+    margin: 0 0 20px 50px
+}
+
+.numsH {
+    display: inline-block;
+    width: 208px;
+    margin: 10px 0 6px -10px;
+}
+
+.inputForms {
+    width: 209px;
+    height: auto;
+    min-height: 180px;
+    margin: 0px 0 0 0;
+    border-bottom: 1px solid rgb(95, 95, 95);
+}
+
+.crLabel,
+.sprLabel {
+    display: block;
+    width: 100px;
+    height: 22px;
+    margin: 9px 0 0 10px;
+    text-align: left;
+    line-height: 20px;
+
+}
+
+.crField,
+.sprField {
+    display: block;
+    width: 70px;
+    height: 22px;
+    margin: 5px 0 0 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.customLength {
+    width: 209px;
+    height: auto;
+    min-height: 70px;
+    border-bottom: 1px solid rgb(150, 149, 149);
+    border-radius: 3px;
+}
+
+.lengthForm {
+    height: auto;
+    min-height: 50px;
+    margin: 10px 0 0 0;
+}
+
+.small {
+    width: 16px;
+    margin: 0 0 0 -3px;
+    vertical-align: top;
+}
+
+.lengthInput {
+    display: block;
+    width: 60px;
+    height: 29px;
+    margin: 0px 10px 0 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-shadow: 0.5px 1px 0.5px rgb(177, 168, 168);
+    line-height: 18px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    border-radius: 3px;
+}
+
+.crButton,
+.lengthB {
+    display: block;
+    width: 105px;
+    height: 30px;
+    margin: 5px 0 0 0px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0.5px 1px 0.5px rgb(177, 168, 168);
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.lengthB {
+    margin: 0px 0 0 0px;
+}
+
+.revolutionCalc {
+    display: block;
+    width: 76px;
+    height: 27px;
+    margin: 5px 2px 0 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    text-shadow: 0.5px 1px 0.5px rgb(177, 168, 168);
+}
+
+.result2 {
+
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0 10px 50px;
+}
+
+.info {
+    font-size: 12px;
+    text-align: right;
+    color: rgb(160, 0, 0);
+}
+
+footer {
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer p {
+    position: relative;
+    bottom: -40px;
+    float: left;
+    margin: 0 0 0 42px;
+    font-size: 12px;
+}
+
+.footerLinks,
+.footerLinksR {
+    bottom: -40px;
+    position: relative;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.footerLinksR {}
