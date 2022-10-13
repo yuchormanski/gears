@@ -1,3 +1,2 @@
-Revolution Check - simple aplication for compairing bike revolution  for junior road cyclists depending of ruled of USI for their age and category.
-Made especialy for view on small screens.
+Revolution Check - simple application for comparing bike revolution for juniors and kids road cyclists depending of rules of USI for their age and category. Made especially for view on small screens.
 http://yuchormanski.free.bg/gears/
